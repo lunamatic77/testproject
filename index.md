@@ -16,7 +16,7 @@
 
 
 
-[track 1](Spotify://spotify:track:7GhIk7Il098yCjg4BQjzvb)
+[track 1](Spotify://?uri=spotify:track:7GhIk7Il098yCjg4BQjzvb)
 
 
 
