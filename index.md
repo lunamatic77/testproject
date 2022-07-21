@@ -22,7 +22,7 @@
 
 
 
-[track 2](Spotify://?#spotify:track:7GhIk7Il098yCjg4BQjzvb)
+[track 2](https://tv.scdn.co/ps4/v2/index.html#!/?uri=spotify:track:7GhIk7Il098yCjg4BQjzvb)
 
 
 
