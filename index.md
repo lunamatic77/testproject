@@ -16,16 +16,20 @@
 
 
 
-[track 1](Spotify://?uri=spotify:track:7GhIk7Il098yCjg4BQjzvb)
+
+
+[Artist](spotify:artist:2WjvvwAX0mdWwq3aFuUdtc&play=false)
 
 
 
 
-
-[track 2](https://tv.scdn.co/ps4/v2/index.html#!/?uri=spotify:track:7GhIk7Il098yCjg4BQjzvb)
-
+[Album](spotify:album:1eStwpifoxHYRsCrPheX4l&play=false)
 
 
-[track 3](Spotify://#spotify:track:7GhIk7Il098yCjg4BQjzvb)
+
+
+[track](spotify:track:7GhIk7Il098yCjg4BQjzvb&play=false)
+
+
 
 
