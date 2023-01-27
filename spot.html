@@ -1,0 +1,42 @@
+<html>
+  <head>
+    
+    
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    
+    
+  </head>
+  <body>
+    <script>
+      
+      window.onSpotifyWebPlaybackSDKReady = () => {
+        const token = 'BQCjiWRqzvHzOGcyRTIbIixGQ0y83nkNZXNoByj5CrAboBBMVJx_rqtBJ0fz20d-DBTFMHBIitsIh25hfQg9V0yGA_jRFngcuFzUYUEX4yiEaVGnne1p1MIpEtVXypzgVKVV26K2lwBVfL6dZlj62g7Lziv4PDhv494L_EOZSZhiQmRXgSu-5gTIPd2FBv_UTqc';
+        const player = new Spotify.Player({
+           name: 'Web Playback SDK Quick Start Player',
+           getOAuthToken: cb => { cb(token); },
+           volume: 0.5
+      });
+        
+        
+  player.addListener('initialization_error', ({ message }) => { 
+      console.error(message);
+  });
+
+  player.addListener('authentication_error', ({ message }) => {
+      console.error(message);
+  });
+
+  player.addListener('account_error', ({ message }) => {
+      console.error(message);
+  });
+      
+    player.connect();
+      
+      }
+        
+    </script>    
+    <button id="togglePlay">Toggle Play</button>
+    
+  </body>
+  
+</html>
